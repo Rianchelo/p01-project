@@ -101,3 +101,19 @@ const quiz = [
     correct: 3 // Nederland
   }
 ];
+
+// Voorbeeldfunctie om antwoord te checken:
+function checkAnswer(questionIndex, answerIndex) {
+  if (quiz[questionIndex].correct === answerIndex) {
+    console.log("Goed!");
+    return true;
+  } else {
+    console.log("Fout. Het juiste antwoord is: " +
+      quiz[questionIndex].options[quiz[questionIndex].correct]);
+    return false;
+  }
+}
+
+// Voorbeeldgebruik:
+checkAnswer(0, 2); // Frankrijk → Goed!
+checkAnswer(1, 0); // Fout, Zuid-Amerika is juist
