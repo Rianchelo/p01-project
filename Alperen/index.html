@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quizzter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <div class="topbar">
+    <button class="topbtn">Home</button>
+    <button class="topbtn">Favorieten</button>
+    <button class="topbtn">Maken</button>
+  </div>
+
+  <!-- QUIZ VIEW -->
+  <main id="quizView">
+    <div class="stage">
+      <div class="side left">
+        <div class="answer-box a" data-choice="A"><span>A. Antwoord</span></div>
+        <div class="answer-box b" data-choice="B"><span>B. Antwoord</span></div>
+      </div>
+
+      <div class="center">
+      <div class="vraag" id="qText">Vraag?</div>
+      </div>
+
+      <div class="side right">
+        <div class="answer-box d" data-choice="D"><span>D. Antwoord</span></div>
+        <div class="answer-box c" data-choice="C"><span>C. Antwoord</span></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- BOTTOM BAR (quiz) -->
+  <div class="bottombar" id="bottomBar">
+    <div class="user-left">
+      <div class="avatar">👤</div>
+      <div class="username">Guest</div>
+      <div class="points" id="totalPoints">0 ptn</div>
+    </div>
+
+    <div class="center-leader">
+      <div class="top-scores" id="miniLeaderboard">1. ---  2. ---  3. ---</div>
+    </div>
+
+    <div class="nav-actions">
+      <button class="pill" id="backBtn">Terug</button>
+      <button class="pill" id="nextBtn">Volgende</button>
+    </div>
+  </div>
+
+  <!-- LEADERBOARD / SCOREPAGINA -->
+  <section id="leaderboardView" class="leaderboard-page">
+    <div class="leaderboard-card">
+      <table>
+        <thead>
+          <tr><th>Naam</th><th>Tijd</th><th>Score</th></tr>
+        </thead>
+        <tbody id="leaderRows"></tbody>
+      </table>
+      <button class="share-btn" id="shareBtn">Share</button>
+    </div>
+  </section>
+
+  <!-- Onderste navigatie (leaderboard) -->
+  <div class="bottom-controls" id="leaderControls">
+    <button class="plain-pill" id="backWatch">Terug Kijken</button>
+    <button class="plain-pill" id="homeBtn">Home</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
