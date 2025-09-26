@@ -2,8 +2,27 @@
 const questions = [
   {id:1, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
   {id:2, img:'<AFBEELDING>', q:'Wat is de hoofdstad van Nederland?', choices:{A:'Rotterdam',B:'Utrecht',C:'Amsterdam',D:'Den Haag'}, correct:'C'},
-  {id:3, img:'<AFBEELDING>', q:'Kleur van de lucht?', choices:{A:'Groen',B:'Rood',C:'Geel',D:'Blauw'}, correct:'D'}
-];
+  {id:3, img:'<AFBEELDING>', q:'Kleur van de lucht?', choices:{A:'Groen',B:'Rood',C:'Geel',D:'Blauw'}, correct:'D'},
+  {id:4, img:'<AFBEELDING>', q:'Welke stad is de hoofdstad van Japan?', choices:{A:'',B:'',C:'',D:''}, correct:'B'},
+  {id:5, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:6, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:7, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:8, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:9, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:10, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:11, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:12, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:13, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:14, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:15, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:16, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:17, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:18, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:19, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+  {id:20, img:'<AFBEELDING>', q:'Wat is 2 + 2?', choices:{A:'3',B:'4',C:'5',D:'22'}, correct:'B'},
+
+
+]
 
 let current = 0;
 let points = 0;
