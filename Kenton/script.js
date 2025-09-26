@@ -102,7 +102,7 @@ const quiz = [
   }
 ];
 
-// Voorbeeldfunctie om antwoord te checken:
+// functie om antwoord te checken:
 function checkAnswer(questionIndex, answerIndex) {
   if (quiz[questionIndex].correct === answerIndex) {
     console.log("Goed!");
@@ -114,6 +114,6 @@ function checkAnswer(questionIndex, answerIndex) {
   }
 }
 
-// Voorbeeldgebruik:
+// gebruik:
 checkAnswer(0, 2); // Frankrijk → Goed!
 checkAnswer(1, 0); // Fout, Zuid-Amerika is juist
